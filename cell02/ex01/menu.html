@@ -1,55 +1,29 @@
-body {
-    padding: 0;
-    margin: 0;
-    background-color: rgb(216, 179, 130);
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.nav ul {
-    list-style: none;
-    background-color: rgb(73, 45, 3);
-    text-align: center;
-    padding: 0;
-    margin: 0;
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
 
-}
+<body>
 
-.nav li {
-    font-size: 40px;
-    position: relative;
-}
+    <header>
+        <div class="nav">
+            <ul>
+                <li class="menu"><a href="#">Menu ▾</a>
+                    <ul>
+                        <li><a href="#">Menu1</a></li>
+                        <li><a href="#">Menu2</a></li>
+                        <li><a href="#">Menu3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
 
-.nav li li {
-    font-size: 30px;
-}
+</body>
 
-.nav a {
-    text-decoration: none;
-    color: white;
-    display: block;
-    padding-left: 15px;
-    border-bottom: 1px solid black;
-    transition: .3s;
-}
-
-.nav a:hover {
-    background-color: rgb(50, 31, 2);
-}
-
-.nav a {
-    border-bottom: none;
-
-}
-
-.nav li ul {
-    position: absolute;
-    display: none;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    min-width: 200px;
-    text-align: center;
-}
-
-.nav li:hover ul {
-    display: block;
-}
+</html>
